@@ -1,0 +1,28 @@
+- Простые запросы к базе знаний для поиска фактов.
+
+Есть ли варвар в игре?
+person_in_game(barbarian)
+У некроманта 12 уровень?
+person_lvl(necromancer, 5)
+Существует ли нож в игре?
+weapon_damage(knife, 5)
+
+Какой урон у Скипетра?
+weapon_damage(scepter, X)
+Какие есть персонажи?
+person_in_game(X)
+Пользуется ли Амазонка ножом или мечом?
+person_weapon(amazon, knife);person_weapon(amazon, sword)
+
+Владеет ли персонаж данной защитой?
+person_in_game(X), armor_in_game(Y), person_armor(X,Y)
+
+У кого какое оружие?
+is_person_has_weapon(X, Y)
+У кого есть амулет?
+is_person_has_amulet(X)
+Сколько поинтов у ассасина?
+person_points(assassin, X)
+
+Кто победит?
+person_points(assassin, X)
