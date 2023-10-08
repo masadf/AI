@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/masasdf/ontologies/2023/8/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/masasdf/ontologies/2023/8/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/masasdf/ontologies/2023/8/untitled-ontology-7/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Armor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_armor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have_weapon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#have_damage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#have_lvl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#have_protection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amazon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amulet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#armour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#assassin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#axe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#barbarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bone_armor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chainmail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#druid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enchantress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#helmet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#knife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#necromancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paladin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scepter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#staff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sword"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#whip"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#amulet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#armour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#assassin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#axe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#barbarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#bone_armor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#cape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#chainmail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#druid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#enchantress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#helmet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#knife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#necromancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#paladin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#scepter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Armor"/>
+        <NamedIndividual IRI="#skin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#spear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#staff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#sword"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#whip"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#amazon"/>
+        <NamedIndividual IRI="#chainmail"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#amazon"/>
+        <NamedIndividual IRI="#spear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#assassin"/>
+        <NamedIndividual IRI="#cape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#assassin"/>
+        <NamedIndividual IRI="#knife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#barbarian"/>
+        <NamedIndividual IRI="#helmet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#barbarian"/>
+        <NamedIndividual IRI="#axe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#druid"/>
+        <NamedIndividual IRI="#skin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#druid"/>
+        <NamedIndividual IRI="#whip"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#enchantress"/>
+        <NamedIndividual IRI="#amulet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#enchantress"/>
+        <NamedIndividual IRI="#staff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#necromancer"/>
+        <NamedIndividual IRI="#bone_armor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#necromancer"/>
+        <NamedIndividual IRI="#scepter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_armor"/>
+        <NamedIndividual IRI="#paladin"/>
+        <NamedIndividual IRI="#armour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have_weapon"/>
+        <NamedIndividual IRI="#paladin"/>
+        <NamedIndividual IRI="#sword"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#amazon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#amulet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#armour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#assassin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#axe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#barbarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#bone_armor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#cape"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#chainmail"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#druid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#enchantress"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#helmet"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#knife"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#necromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_lvl"/>
+        <NamedIndividual IRI="#paladin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#scepter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_protection"/>
+        <NamedIndividual IRI="#skin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#spear"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#staff"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#sword"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#have_damage"/>
+        <NamedIndividual IRI="#whip"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_armor"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have_weapon"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_armor"/>
+        <Class IRI="#Armor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have_weapon"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#have_damage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#have_lvl"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#have_protection"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#have_damage"/>
+        <Class IRI="#Weapon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#have_lvl"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#have_protection"/>
+        <Class IRI="#Armor"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#have_damage"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#have_lvl"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#have_protection"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

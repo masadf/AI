@@ -1,0 +1,25 @@
+Запросы с использованием фактов и отношений
+
+Какой персонаж имеет уровень 5?
+have_lvl value 5
+
+Какое оружие имеет урон 3?
+have_damage value 3
+
+Какая броня имеет защиту 2?
+have_protection value 2
+
+Какая броня у амазонки?
+have_armor value amazon
+
+Какая броня у амазонки?
+have_armor value amazon
+
+Список оружия у Некроманта и Варвара?
+(have_weapon value necromancer) or (have_weapon value barbarian)
+
+Персонаж с топором и шлемом?
+(have_weapon value axe) and (have_armor value helmet)
+
+Найти оружие у персонажа с бронёй - накидка:
+have_weapon some (have_armor value skin)
