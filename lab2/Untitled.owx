@@ -358,6 +358,24 @@
         <NamedIndividual IRI="#whip"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
     </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#have_armor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#have_weapon"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#have_armor"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#have_weapon"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#have_armor"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#have_weapon"/>
+    </SymmetricObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#have_armor"/>
         <Class IRI="#Person"/>

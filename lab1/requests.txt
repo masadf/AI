@@ -25,4 +25,4 @@ is_person_has_amulet(X)
 person_points(assassin, X)
 
 Кто победит?
-person_points(assassin, X)
+is_first_win(assassin, X)
